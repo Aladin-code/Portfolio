@@ -41,7 +41,7 @@ function Home(props){
         </div>
         
        </section>
-       <img src={picture} alt="picture" className='w-[700px] h-54 absolute bottom-[-40px] right-0 'data-aos="fade-left"/>
+       <img src={picture} alt="picture" className='w-[700px] h-54 absolute bottom-[-40px] right-0 '/>
     </>
     )
 }

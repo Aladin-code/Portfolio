@@ -1,0 +1,24 @@
+.carousel-container {
+  position: relative; /* Allows for absolute positioning of arrows */
+}
+
+.p-carousel-prev,
+.p-carousel-next {
+  position: absolute; /* Position arrows absolutely within the container */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Offset for perfect centering */
+  background-color: white; /* Optional: makes arrows more visible */
+  border-radius: 50%; /* Optional: adds rounded corners */
+  padding: 10px; /* Optional: increases hit area for clicks */
+  z-index: 10; /* Ensures arrows are above the carousel */
+}
+
+/* Position the left arrow */
+.p-carousel-prev {
+  left: 10px; /* Adjust to move it closer or further from the left edge */
+}
+
+/* Position the right arrow */
+.p-carousel-next {
+  right: 10px; /* Adjust to move it closer or further from the right edge */
+}

@@ -40,7 +40,7 @@ function Projects() {
                         
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="https://github.com/Aladin-code" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={shoes} alt="" width="600px" className='mx-auto' />
@@ -73,7 +73,7 @@ function Projects() {
 
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={examalter} alt="" width="600px" className='mx-auto' />
@@ -89,7 +89,7 @@ function Projects() {
 
                            <div className="mb-10 pb-7" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={office} alt="" width="600px" className='mx-auto' />
@@ -102,7 +102,7 @@ function Projects() {
                         </div>
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={pv1} alt="" width="600px" className='mx-auto' />
@@ -119,7 +119,7 @@ function Projects() {
 
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={p6} alt="" width="600px" className='mx-auto' />
@@ -135,7 +135,7 @@ function Projects() {
 
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={p8} alt="" width="600px" className='mx-auto' />

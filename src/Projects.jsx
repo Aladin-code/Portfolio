@@ -37,22 +37,7 @@ function Projects() {
                     {/* Content section */}
                     <div className="w-1/2 ml-10 pt-[86px] mb-12">
 
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={examalter} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-4xl font-semibold text-[#FFBD59] mb-2'>EXAMALTER</h1>
-                            <p className='text-left text-base text-[#979393]'>A web application designed for teachers to shuffle questionnaires, ensuring unique question orders for each student. Developed to help minimize cheating by offering dynamic quiz generation.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
-                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
-                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
-                            </div>
-                        </div>
-
+                        
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
                                 <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
@@ -91,6 +76,35 @@ function Projects() {
                                 <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
+                                <img src={examalter} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-4xl font-semibold text-[#FFBD59] mb-2'>EXAMALTER</h1>
+                            <p className='text-left text-base text-[#979393]'>A web application designed for teachers to shuffle questionnaires, ensuring unique question orders for each student. Developed to help minimize cheating by offering dynamic quiz generation.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                            </div>
+                        </div>
+
+                           <div className="mb-10 pb-7" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
+                                </a>
+                                <img src={office} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>OFFICE SUPPLY MONITORING SYSTEM</h1>
+                            <p className='text-left text-base text-[#979393]'>A desktop-based inventory management system built with Java, focused on monitoring office supplies. Tracks inventory levels, usage, and supply restocking, making it easier for office administrators to manage resources efficiently.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                            </div>
+                        </div>
+                        <div className="mb-10 pb-5" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
+                                </a>
                                 <img src={pv1} alt="" width="600px" className='mx-auto' />
                             </div>
                             <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>PORTFOLIO</h1>
@@ -117,19 +131,7 @@ function Projects() {
                             </div>
                         </div>
 
-                        <div className="mb-10 pb-7" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={office} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>OFFICE SUPPLY MONITORING SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A desktop-based inventory management system built with Java, focused on monitoring office supplies. Tracks inventory levels, usage, and supply restocking, making it easier for office administrators to manage resources efficiently.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
-                            </div>
-                        </div>
+                     
 
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>

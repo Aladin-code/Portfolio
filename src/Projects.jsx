@@ -122,7 +122,7 @@ function Projects() {
                                 <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
-                                <img src={p7} alt="" width="600px" className='mx-auto' />
+                                <img src={office} alt="" width="600px" className='mx-auto' />
                             </div>
                             <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>OFFICE SUPPLY MONITORING SYSTEM</h1>
                             <p className='text-left text-base text-[#979393]'>A desktop-based inventory management system built with Java, focused on monitoring office supplies. Tracks inventory levels, usage, and supply restocking, making it easier for office administrators to manage resources efficiently.</p>

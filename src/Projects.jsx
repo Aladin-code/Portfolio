@@ -153,7 +153,7 @@ function Projects() {
                             </div>
                         </div>
 
-                        //Blogs
+                        {/* Blogs */}
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
                                 <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
@@ -161,10 +161,13 @@ function Projects() {
                                 </a>
                                 <img src={manganTayoGif} alt="" width="600px" className='mx-auto' />
                             </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>BUDGET MONITORING SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A desktop application built with Java that helps users track and manage their budgets. It features data input, real-time monitoring of expenses, and visual representation of financial performance.</p>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>Mangan-Tayo</h1>
+                            <p className='text-left text-base text-[#979393]'>A food blog where the author shares his culinary experiences. Users can like, comment, and share posts. The blog also features login options with Facebook and Google. Built with HTML, CSS, JavaScript, and PHP.</p>
                             <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
                             </div>
                         </div>
 
@@ -175,10 +178,12 @@ function Projects() {
                                 </a>
                                 <img src={ganapGif} alt="" width="600px" className='mx-auto' />
                             </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>BUDGET MONITORING SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A desktop application built with Java that helps users track and manage their budgets. It features data input, real-time monitoring of expenses, and visual representation of financial performance.</p>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>GANAP</h1>
+                            <p className='text-left text-base text-[#979393]'>A Laravel application, a personal blog that shares the author's personal life such as his experiences, thoughts, travels, opinions, and lessons. It also comes with Facebook and Google login. It is made with Laravel, HTML, CSS, Tailwind, and JavaScript.</p>
                             <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
                             </div>
                         </div>
                     </div>

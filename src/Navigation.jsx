@@ -1,13 +1,5 @@
 
-import React from 'react';
 
-function Navigation(){
-    return(
-    <>
-       <h1>Logo</h1> 
-    </>
-    )
-}
 
 import React from 'react';
 

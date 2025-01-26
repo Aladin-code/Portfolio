@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 
 function Navigation(){
@@ -8,7 +8,7 @@ function Navigation(){
     </>
     )
 }
-=======
+
 import React from 'react';
 
 function Navigation(){

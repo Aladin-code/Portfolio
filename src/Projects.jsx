@@ -15,8 +15,11 @@ import manganTayoGif from './files/mangan-tayo.gif';
 import java1Gif from './files/java1.gif';
 import java2Gif from './files/java2.gif';
 import ganapGif from './files/ganap.gif';
-import { FaCircle, FaHtml5, FaCss3Alt, FaJs, FaWordpress, FaPhp, FaJava } from "react-icons/fa";
+import { FaCircle, FaHtml5, FaCss3Alt, FaJs, FaWordpress, FaPhp, FaJava, FaLaravel } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 function Projects() {
     return (
@@ -34,7 +37,7 @@ function Projects() {
                                 <img src={servIcon} width="450px" alt="" className='mt-3' />
                                 <p className='text-xl tracking-widest mb-2'>All the projects on your right are built from scratch in the following stack:</p>
                                 <div className="flex justify-start items-center text-[#FFBD59]">
-                                    <FaCircle className="mr-2 text-[11px]" /> Html  <FaCircle className="m-2 text-[11px]" />  Css  <FaCircle className="m-2 text-[11px]" />  Javascript  <FaCircle className="m-2 text-[11px]" />  Wordpress  <FaCircle className="m-2 text-[11px]" />  PHP   <FaCircle className="m-2 text-[11px]" />  Java.
+                                    <FaCircle className="mr-2 text-[11px]" /> Html  <FaCircle className="m-2 text-[11px]" />  Css   <FaCircle className="m-2 text-[11px]" />  Javascript  <FaCircle className="m-2 text-[11px]" />  Wordpress  <FaCircle className="m-2 text-[11px]" />  PHP   <FaCircle className="m-2 text-[11px]" />  Java <FaCircle className="m-2 text-[11px]" />  MySQL
                                 </div>
                             </div>
                         </div>
@@ -42,8 +45,6 @@ function Projects() {
 
                     {/* Content section */}
                     <div className="w-1/2 ml-10 pt-[86px] mb-12">
-
-                        
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
                                 <a href="https://github.com/Aladin-code" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
@@ -58,6 +59,7 @@ function Projects() {
                                 <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
                                 <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
                                 <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
                             </div>
                         </div>
 
@@ -74,6 +76,8 @@ function Projects() {
                                 <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
                                 <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
                                 <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
                             </div>
                         </div>
 
@@ -90,71 +94,13 @@ function Projects() {
                                 <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
                                 <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
                                 <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
                             </div>
                         </div>
 
-                           <div className="mb-10 pb-7" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={office} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>OFFICE SUPPLY MONITORING SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A desktop-based inventory management system built with Java, focused on monitoring office supplies. Tracks inventory levels, usage, and supply restocking, making it easier for office administrators to manage resources efficiently.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
-                            </div>
-                        </div>
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={portfolioGif} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>PORTFOLIO</h1>
-                            <p className='text-left text-base text-[#979393]'>A personal portfolio website created using WordPress, showcasing my projects, skills, and professional background. Designed to be visually appealing and user-friendly, reflecting my work as a web developer.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
-                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
-                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
-                                <FaWordpress className="mr-2 text-[#21759B]" size={20} />
-                            </div>
-                        </div>
-
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={java1Gif} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>INSTRUCTOR MANAGEMENT SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A Java-based desktop application for managing instructor information and schedules. Provides an intuitive interface for tracking instructor availability, assignments, and performance monitoring.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
-                            </div>
-                        </div>
-
-                     
-
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={java2Gif} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>BUDGET MONITORING SYSTEM</h1>
-                            <p className='text-left text-base text-[#979393]'>A desktop application built with Java that helps users track and manage their budgets. It features data input, real-time monitoring of expenses, and visual representation of financial performance.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaJava className="mr-2 text-[#007396]" size={20} />
-                            </div>
-                        </div>
-
-                        {/* Blogs */}
-                        <div className="mb-10 pb-5" data-aos="fade-up">
+                         {/* Blogs */}
+                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
                                 <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
@@ -168,6 +114,7 @@ function Projects() {
                                 <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
                                 <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
                                 <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
                             </div>
                         </div>
 
@@ -184,8 +131,77 @@ function Projects() {
                                 <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
                                 <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
                                 <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                <FaLaravel className="mr-2 text-[#FF2D20]" size={20} />
+                                <RiTailwindCssFill className="mr-2 text-blue-300 "size={20}/>
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
                             </div>
                         </div>
+
+                           <div className="mb-10 pb-7" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                              
+                                </a>
+                                <img src={office} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>OFFICE SUPPLY MONITORING SYSTEM</h1>
+                            <p className='text-left text-base text-[#979393]'>A desktop-based inventory management system built with Java, focused on monitoring office supplies. Tracks inventory levels, usage, and supply restocking, making it easier for office administrators to manage resources efficiently.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                            </div>
+                        </div>
+                        <div className="mb-10 pb-5" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                  
+                                </a>
+                                <img src={portfolioGif} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>PORTFOLIO</h1>
+                            <p className='text-left text-base text-[#979393]'>A personal portfolio website created using WordPress, showcasing my projects, skills, and professional background. Designed to be visually appealing and user-friendly, reflecting my work as a web developer.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                <FaWordpress className="mr-2 text-[#21759B]" size={20} />
+                            </div>
+                        </div>
+
+                        <div className="mb-10 pb-5" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                   
+                                </a>
+                                <img src={java1Gif} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>INSTRUCTOR MANAGEMENT SYSTEM</h1>
+                            <p className='text-left text-base text-[#979393]'>A Java-based desktop application for managing instructor information and schedules. Provides an intuitive interface for tracking instructor availability, assignments, and performance monitoring.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                            </div>
+                        </div>
+
+                     
+
+                        <div className="mb-10 pb-5" data-aos="fade-up">
+                            <div className='border rounded-2xl shadow-xl relative'>
+                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                   
+                                </a>
+                                <img src={java2Gif} alt="" width="600px" className='mx-auto' />
+                            </div>
+                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>BUDGET MONITORING SYSTEM</h1>
+                            <p className='text-left text-base text-[#979393]'>A desktop application built with Java that helps users track and manage their budgets. It features data input, real-time monitoring of expenses, and visual representation of financial performance.</p>
+                            <div className="flex justify-start items-center mt-2">
+                                <FaJava className="mr-2 text-[#007396]" size={20} />
+                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                            </div>
+                        </div>
+
+                       
                     </div>
                 </div>
             </div>

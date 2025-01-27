@@ -15,12 +15,13 @@ import manganTayoGif from './files/mangan-tayo.gif';
 import java1Gif from './files/java1.gif';
 import java2Gif from './files/java2.gif';
 import ganapGif from './files/ganap.gif';
+import resma from './files/resma.gif';
 import { FaCircle, FaHtml5, FaCss3Alt, FaJs, FaWordpress, FaPhp, FaJava, FaLaravel } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-
+import { FaReact } from "react-icons/fa";
 function Projects() {
     return (
         <>
@@ -43,66 +44,80 @@ function Projects() {
                         </div>
                     </div>
 
-                    {/* Content section */}
-                    <div className="w-1/2 ml-10 pt-[86px] mb-12">
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/Aladin-code" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={shoes} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>SHOES CENTER</h1>
-                            <p className='text-left text-base text-[#979393]'>An eCommerce website for a shoe store that allows customers to browse and select shoes. Payments are made through an alternative method where users upload a GCash receipt for manual verification, ensuring a secure and flexible transaction process without a full payment gateway integration.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
-                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
-                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
-                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
-                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
-                            </div>
-                        </div>
+                                        <div className="w-1/2 ml-10 pt-[86px] mb-12">
 
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="https://github.com/Aladin-code/Philtrip.git" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={philtrip} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>PHILTRIP</h1>
-                            <p className='text-left text-base text-[#979393]'>A travel booking web application where users can explore destinations and book trips. Although no payment gateway is implemented, the system facilitates booking requests and manages user inquiries about travel packages.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
-                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
-                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
-                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
-                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
-                            </div>
-                        </div>
+                                        <div className="mb-10 pb-5" data-aos="fade-up">
+                                                <div className='border rounded-2xl shadow-xl relative'>
+                                                    <a href="https://github.com/Aladin-code/Blockchain-Based-Clinic-Management-System.git" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                                        <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
+                                                    </a>
+                                                    <img src={resma} alt="" width="600px" className='mx-auto' />
+                                                </div>
+                                                <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>BLOCKCHAIN BASED CLINIC MANAGEMENT SYSTEM</h1>
+                                                <p className='text-left text-base text-[#979393]'>A blockchain-based clinic management system developed to secure medical records, making them tamper-proof and immutable. It includes patient and appointment handling features. Built with React and Motoko.</p>
+                                                <div className="flex justify-start items-center mt-2">
+                                                    <FaReact className="mr-2 text-blue-400 "size={20}/>
+                                                </div>
+                                            </div>
 
-                        <div className="mb-10 pb-5" data-aos="fade-up">
-                            <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
-                                    <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
-                                </a>
-                                <img src={examGif} alt="" width="600px" className='mx-auto' />
-                            </div>
-                            <h1 id="examalter" className='mt-5 text-left text-4xl font-semibold text-[#FFBD59] mb-2'>EXAMALTER</h1>
-                            <p className='text-left text-base text-[#979393]'>A web application designed for teachers to shuffle questionnaires, ensuring unique question orders for each student. Developed to help minimize cheating by offering dynamic quiz generation.</p>
-                            <div className="flex justify-start items-center mt-2">
-                                <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
-                                <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
-                                <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
-                                <FaPhp className="mr-2 text-[#777BB4]" size={20} />
-                                <SiMysql className="mr-2 text-orange-500 "size={30}/>
-                            </div>
-                        </div>
+                                            <div className="mb-10 pb-5" data-aos="fade-up">
+                                                <div className='border rounded-2xl shadow-xl relative'>
+                                                    <a href="https://github.com/Aladin-code" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                                        <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
+                                                    </a>
+                                                    <img src={shoes} alt="" width="600px" className='mx-auto' />
+                                                </div>
+                                                <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>SHOES CENTER</h1>
+                                                <p className='text-left text-base text-[#979393]'>An eCommerce website for a shoe store that allows customers to browse and select shoes. Payments are made through an alternative method where users upload a GCash receipt for manual verification, ensuring a secure and flexible transaction process without a full payment gateway integration.</p>
+                                                <div className="flex justify-start items-center mt-2">
+                                                    <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                                    <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                                    <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                                    <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                                    <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                                                </div>
+                                            </div>
 
-                         {/* Blogs */}
+                                            <div className="mb-10 pb-5" data-aos="fade-up">
+                                                <div className='border rounded-2xl shadow-xl relative'>
+                                                    <a href="https://github.com/Aladin-code/Philtrip.git" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                                        <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
+                                                    </a>
+                                                    <img src={philtrip} alt="" width="600px" className='mx-auto' />
+                                                </div>
+                                                <h1 id="examalter" className='mt-5 text-left text-2xl font-semibold text-[#FFBD59]'>PHILTRIP</h1>
+                                                <p className='text-left text-base text-[#979393]'>A travel booking web application where users can explore destinations and book trips. Although no payment gateway is implemented, the system facilitates booking requests and manages user inquiries about travel packages.</p>
+                                                <div className="flex justify-start items-center mt-2">
+                                                    <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                                    <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                                    <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                                    <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                                    <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                                                </div>
+                                            </div>
+
+                                            <div className="mb-10 pb-5" data-aos="fade-up">
+                                                <div className='border rounded-2xl shadow-xl relative'>
+                                                    <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                                        {/* <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' /> */}
+                                                    </a>
+                                                    <img src={examGif} alt="" width="600px" className='mx-auto' />
+                                                </div>
+                                                <h1 id="examalter" className='mt-5 text-left text-4xl font-semibold text-[#FFBD59] mb-2'>EXAMALTER</h1>
+                                                <p className='text-left text-base text-[#979393]'>A web application designed for teachers to shuffle questionnaires, ensuring unique question orders for each student. Developed to help minimize cheating by offering dynamic quiz generation.</p>
+                                                <div className="flex justify-start items-center mt-2">
+                                                    <FaHtml5 className="mr-2 text-[#E34F26]" size={20} />
+                                                    <FaCss3Alt className="mr-2 text-[#1572B6]" size={20} />
+                                                    <FaJs className="mr-2 text-[#F7DF1E]" size={20} />
+                                                    <FaPhp className="mr-2 text-[#777BB4]" size={20} />
+                                                    <SiMysql className="mr-2 text-orange-500 "size={30}/>
+                                                </div>
+                                            </div>
+
+                                             {/* Blogs */}
                          <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="https://github.com/Aladin-code/Mangan-Tayo.git" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={manganTayoGif} alt="" width="600px" className='mx-auto' />
@@ -120,7 +135,7 @@ function Projects() {
 
                         <div className="mb-10 pb-5" data-aos="fade-up">
                             <div className='border rounded-2xl shadow-xl relative'>
-                                <a href="" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
+                                <a href="https://github.com/Aladin-code/Ganap.git" target="_blank" rel="noopener noreferrer" title="Link to GitHub repo">
                                     <FaGithub color="gray" size={35} className='absolute right-5 top-5 cursor-pointer' />
                                 </a>
                                 <img src={ganapGif} alt="" width="600px" className='mx-auto' />
